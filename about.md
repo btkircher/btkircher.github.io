@@ -2,44 +2,37 @@
 title: About
 layout: page
 ---
+
 ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
 
-<p>Lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+# Welcome to [Your Bakery Name]!
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+Hello and welcome to [Your Bakery Name]! My name is [Your Name], and I'm the passionate baker behind this delightful at-home bakery.
 
-<h2>Skills</h2>
+## About Me
 
-<ul class="skill-list">
-	<li>HTML - Jade - Haml - Erb</li>
-	<li>Responsive (Mobile First)</li>
-	<li>CSS (Stylus, Sass, Less)</li>
-	<li>Css Frameworks (Bootstrap, Foundation)</li>
-	<li>Javascript (Design Patterns, Testes)</li>
-	<li>AngularJS - ReactJS</li>
-	<li>Grunt - Gulp - Yeoman</li>
-	<li>Git</li>
-	<li>PHP</li>
-	<li>Python</li>
-	<li>MySQL - MongoDB</li>
-	<li>Scrum and Kanban</li>
-	<li>TDD e Continuous Integration</li>
-</ul>
+Baking has always been my greatest passion, and I've turned that passion into a business. I take great pride in creating delicious, homemade treats that bring joy to people's lives. Whether it's a birthday cake, a batch of freshly baked cookies, or a special dessert for your event, I pour my heart and soul into every creation.
 
-<h2>Projects</h2>
+I believe that the key to exceptional baked goods lies in using the finest ingredients, careful attention to detail, and a whole lot of love. That's why, at [Your Bakery Name], you can expect nothing but the best. Every recipe is crafted with precision, and every order is made with care.
 
-<ul>
-	<li><a href="https://github.com/">Lorem Lorem</a></li>
-	<li><a href="https://github.com/">Ipsum Dolor</a></li>
-	<li><a href="https://github.com/">Dolor Lorem</a></li>
-</ul>
+## Our Mission
+
+At [Your Bakery Name], our mission is simple: to make every moment sweeter. We're here to add a touch of sweetness to your life, one bite at a time. Whether you're celebrating a milestone or simply indulging in a little self-care, we're here to satisfy your cravings.
+
+## Our Specialties
+
+- **Cakes:** Our custom-made cakes are the centerpiece of any celebration. From elegant wedding cakes to fun and colorful birthday cakes, we'll create the perfect cake for your special day.
+
+- **Cookies:** Our freshly baked cookies are the perfect treat for any occasion. From classic chocolate chip to unique flavor combinations, our cookies are always a crowd-pleaser.
+
+- **Pastries:** Indulge in our delicious pastries, from flaky croissants to rich and buttery danishes. Perfect for breakfast or as a sweet snack.
+
+## Contact Us
+
+We're excited to be a part of your sweet moments. If you have any questions, special requests, or would like to place an order, please don't hesitate to reach out to us.
+
+- **Email:** [Your Email Address]
+- **Phone:** [Your Phone Number]
+
+Thank you for choosing [Your Bakery Name] for your sweet cravings. We look forward to serving you soon!
+

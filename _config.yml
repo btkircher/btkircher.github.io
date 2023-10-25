@@ -34,7 +34,7 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
+facebook: 100094256522051
 twitter: mytwitter
 instagram: myinstagram
 linkedin: mylinkedin
@@ -66,6 +66,7 @@ projects: false
 # if you don't need "about" or "blog", comment them out below
 about: true
 blog: true
+menu: true
 
 # do you want to show the "read time" of the posts?
 read-time: true
