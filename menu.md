@@ -4,23 +4,58 @@ title: Menu
 permalink: /menu/
 ---
 
-# Bakery Menu
+# Thymeless Treats Bakery - Fall 2023 Menu
 
-Welcome to our bakery! Below are some of our delightful offerings:
+## Cupcake Flavors:
+**Regular** - $3 each - minimum 1dz order per flavor  
+**Mini** - $1.50 each - minimum 2 dz order per flavor  
+- Classic Vanilla
+- Almond
+- Chocolate
+- Confetti
+- Caramel
 
-## Cakes
+## Buttercream Flavors:
+- Vanilla
+- Almond
+- Chocolate
+- Strawberry
+- Caramel
+- Peanut Butter
+- Dye-free Black Oreo Cookie Butter (+ $3.00 per dozen)
 
-- **Chocolate Fudge Cake** - A rich and moist chocolate cake layered with fudge. Perfect for chocolate lovers!
-- **Vanilla Strawberry Cake** - Light vanilla cake with layers of fresh strawberries and whipped cream.
+## Cupcake Specials:
+**Regular** - $3.50 each - minimum 1dz order per flavor  
+**Mini** - $1.75 each - minimum 2dz order per flavor  
+- S'mores
+- Hot Cocoa
+- Death By (Black) Chocolate
+- Chocolate Peanut Butter Lovers
 
-## Pastries
+## Seasonal Breads - Minis
+$4 per loaf - Minimum order of 4
+- Pumpkin Spice
+- Cranberry Orange (beginning November 24th)
 
-- **Croissant** - Buttery and flaky, our croissants are perfect for a morning treat.
-- **Blueberry Muffin** - Made with fresh blueberries and topped with a sprinkle of sugar.
+## Cookie Flavors:
+(Prices vary by size and flavor)
+- Buttercream Sugar Cookies
+- Oatmeal No-Bake cookies
+- Assorted Christmas Cookie tray
+  - Pre orders start November 24th.
+  - More details to come
 
-## Cookies
+## Holiday Gift Giving:
+(Minimum order of 4)
+- Individually Packaged Seasonal Breads - $4.50
+- Individually Packaged Holiday Cakes - $4
+- Individually Packaged Buttercream Sugar Cookies - Starting at $3 (minimum order of 12)
 
-- **Chocolate Chip Cookie** - Classic cookies filled with melty chocolate chips.
-- **Oatmeal Raisin Cookie** - A chewy delight filled with oats and sweet raisins.
+## Chocolates
+(Minimum order of 4)
+- Oreo Pucks - $2
 
-*All our items are homemade with love and the finest ingredients.*
+## Special Occasion Cakes:
+*Prices will vary.*
+
+**Coming 2024.**
