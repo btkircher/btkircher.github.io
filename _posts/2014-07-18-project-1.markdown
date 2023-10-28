@@ -10,12 +10,17 @@ category: Menu
 description: Seasonal Breads - Minis
 ---
 
-Discover our special selection of seasonal holiday breads. Each bread is freshly baked with love and the finest ingredients to bring warmth and joy to your table.
+**Discover our special selection of seasonal holiday breads.** Each bread is freshly baked with love and the finest ingredients to bring warmth and joy to your table.
 
-$4 per loaf - Minimum order of 4
-- Pumpkin Spice
-- Cranberry Orange (beginning November 24th)
+- **Price:** $4 per loaf
+- **Minimum order:** 4 loaves
+
+**Available Flavors:**
+- 🎃 **Pumpkin Spice**
+- 🍊 **Cranberry Orange** (Available beginning November 24th)
 
 Indulge in the comforting flavors of the season with our mini loaves of Pumpkin Spice and Cranberry Orange breads. Whether you're cozying up at home or sharing with loved ones, our seasonal breads are sure to warm hearts and satisfy taste buds.
+
+--- 
 
 [Order Now](#) <!-- Replace '#' with the link to your ordering page -->
