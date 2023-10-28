@@ -1,11 +1,20 @@
 ---
 layout: default
 modal-id: 1
-date: 2014-07-18
+date: 2023-10-27
 img: sponge-cake.png
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+alt: Seasonal Holiday Breads
+project-date: Fall 2023
+client: Your Bakery Name
+category: Menu
+description: Discover our special selection of seasonal holiday breads. Each bread is freshly baked with love and the finest ingredients to bring warmth and joy to your table.
 ---
+
+## <span class="section-title"><i class="fas fa-bread-slice"></i> Seasonal Breads - Minis</span>
+$4 per loaf - Minimum order of 4
+- Pumpkin Spice
+- Cranberry Orange (beginning November 24th)
+
+Indulge in the comforting flavors of the season with our mini loaves of Pumpkin Spice and Cranberry Orange breads. Whether you're cozying up at home or sharing with loved ones, our seasonal breads are sure to warm hearts and satisfy taste buds.
+
+[Order Now](#) <!-- Replace '#' with the link to your ordering page -->
