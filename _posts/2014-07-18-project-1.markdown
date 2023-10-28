@@ -7,10 +7,11 @@ alt: Seasonal Holiday Breads
 project-date: Fall 2023
 client: Your Bakery Name
 category: Menu
-description: Discover our special selection of seasonal holiday breads. Each bread is freshly baked with love and the finest ingredients to bring warmth and joy to your table.
+description: Seasonal Breads - Minis
 ---
 
-## <span class="section-title"><i class="fas fa-bread-slice"></i> Seasonal Breads - Minis</span>
+Discover our special selection of seasonal holiday breads. Each bread is freshly baked with love and the finest ingredients to bring warmth and joy to your table.
+
 $4 per loaf - Minimum order of 4
 - Pumpkin Spice
 - Cranberry Orange (beginning November 24th)
