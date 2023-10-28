@@ -29,11 +29,12 @@ disqus_shortname: myshortname
 #   primary-rgb: "24,24,24"
 #   secondary: 8b8b8b # Changing secondary to a deeper gray for better contrast
 #   secondary-dark: 606060 # Slightly lighter than primary but darker than secondary for additional contrast
+
 color:
-  primary: #93A299  # Sage green as the primary color
+  primary: 93A299  # Sage green as the primary color
   primary-rgb: "147,162,153"
-  secondary: #FFFFF0  # Ivory white as the secondary color
-  secondary-dark: #B0C4B1  # Slightly lighter than primary but still in the sage family for additional contrast
+  secondary: FFFFF0  # Ivory white as the secondary color
+  secondary-dark: B0C4B1  # Slightly lighter than primary but still in the sage family for additional contrast
 
 
 # Footer settings
