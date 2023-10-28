@@ -25,10 +25,11 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 181818 # Dark gray, reminiscent of the background in the logo
+  primary: 181818 # Keeping Dark gray as the primary color
   primary-rgb: "24,24,24"
-  secondary: fffafa # Off-white, echoing the logo's text and design
-  secondary-dark: 8b8b8b # A deeper gray for contrast
+  secondary: 8b8b8b # Changing secondary to a deeper gray for better contrast
+  secondary-dark: 606060 # Slightly lighter than primary but darker than secondary for additional contrast
+
 
 # Footer settings
 footer:
