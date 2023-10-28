@@ -33,8 +33,8 @@ disqus_shortname: myshortname
 color:
   primary: 93A299  # Sage green as the primary color
   primary-rgb: "147,162,153"
-  secondary: FFFFF0  # Ivory white as the secondary color
-  secondary-dark: B0C4B1  # Slightly lighter than primary but still in the sage family for additional contrast
+  secondary: B0C4B1 #FFFFF0  # Ivory white as the secondary color
+  secondary-dark: FFFFF0 #B0C4B1  # Slightly lighter than primary but still in the sage family for additional contrast
 
 
 # Footer settings
