@@ -1,11 +1,28 @@
 ---
 layout: default
 modal-id: 3
-date: 2014-07-16
+date: 2023-10-27
 img: cookie.png
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+alt: Cookie Flavors
+project-date: Coming Fall/Winter 2023
+client: Your Bakery Name
+category: Menu
+title: Cookie Flavors
 ---
+
+### **Pricing:** (Prices vary by size and flavor)
+
+## **Available Cookie Flavors:**
+### - 🍪 **Buttercream Sugar Cookies**
+### - 🍪 **Oatmeal No-Bake cookies**
+### - 🎄 **Assorted Christmas Cookie tray**
+  - Pre-orders start November 24th.
+  - More details to come
+
+Discover our special selection of cookies, perfect for any occasion. Each cookie is freshly baked with love and the finest ingredients to bring warmth and joy to your table.
+
+Whether you're hosting a festive holiday gathering or just craving a sweet treat, our cookies are sure to satisfy.
+
+---
+
+[Order Now](#) <!-- Replace '#' with the link to your ordering page -->
