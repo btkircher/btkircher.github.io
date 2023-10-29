@@ -2,7 +2,7 @@
 layout: default
 modal-id: 4
 date: 2023-10-27
-img: cupcake (1).png
+img: cupcake.jpg
 alt: Cupcake Flavors
 project-date: Coming Fall/Winter 2023
 client: Your Bakery Name

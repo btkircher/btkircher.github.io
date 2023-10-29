@@ -2,7 +2,7 @@
 layout: default
 modal-id: 1
 date: 2023-10-27
-img: sponge-cake.png
+img: bread.png
 alt: Seasonal Holiday Breads
 project-date: Fall 2023
 client: Your Bakery Name

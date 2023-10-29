@@ -2,7 +2,7 @@
 layout: default
 modal-id: 2
 date: 2023-10-27
-img: cake (1).png
+img: cake.jpg
 alt: Special Occasion Cakes
 project-date: Coming 2024
 client: Your Bakery Name
