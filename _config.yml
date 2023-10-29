@@ -33,7 +33,7 @@ disqus_shortname: myshortname
 color:
   primary: 93A299 # Sage green as the primary color
   primary-rgb: "147,162,153"
-  secondary: D3D3D3 # Soft gray as the secondary color
+  secondary: C0C0C0 # Slightly darker soft gray as the secondary color
   secondary-dark: A9A9A9 # A slightly darker shade of the soft gray for better contrast
 
 # Footer settings
