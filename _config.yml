@@ -31,14 +31,14 @@ disqus_shortname: myshortname
 #   secondary-dark: 606060 # Slightly lighter than primary but darker than secondary for additional contrast
 
 color:
-  primary: 93A299 # Sage green as the primary color
-  primary-rgb: "147,162,153"
-  secondary: C0C0C0 # Slightly darker soft gray as the secondary color
-  secondary-dark: A9A9A9 # A slightly darker shade of the soft gray for better contrast
+  primary: 436D60 # Green color extracted from the image as the primary color
+  primary-rgb: "67,109,96"
+  secondary: 7B7B7B # Complementary muted gray as the secondary color
+  secondary-dark: 6B6B6B # A slightly darker shade of the gray for better contrast
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
+  copyright: Thymeless Treats Bakery
   location: Cleveland
   social: Around the Web
   credits: Credits

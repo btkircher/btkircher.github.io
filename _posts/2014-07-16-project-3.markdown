@@ -2,7 +2,7 @@
 layout: default
 modal-id: 3
 date: 2023-10-27
-img: gingerbread.jpg
+img: cookie.jpg
 alt: Cookie Flavors
 project-date: Coming Fall/Winter 2023
 client: Your Bakery Name
