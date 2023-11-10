@@ -1,4 +1,4 @@
-# Site settings
+ # Site settings
 title: Thymeless Treats Bakery
 email: your-email@domain.com
 url: https://btkircher.github.io/
@@ -31,10 +31,10 @@ disqus_shortname: myshortname
 #   secondary-dark: 606060 # Slightly lighter than primary but darker than secondary for additional contrast
 
 color:
-  primary: 436D60 # Green color extracted from the image as the primary color
+  primary: 355c47 # Green color extracted from the image as the primary color
   primary-rgb: "67,109,96"
-  secondary: 7B7B7B # Complementary muted gray as the secondary color
-  secondary-dark: 6B6B6B # A slightly darker shade of the gray for better contrast
+  secondary: F2F2F2 # Complementary muted gray as the secondary color
+  secondary-dark: 000000 # A slightly darker shade of the gray for better contrast
 
 # Footer settings
 footer:
