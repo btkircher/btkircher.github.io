@@ -49,7 +49,7 @@ hr.star-primary {
 
 hr.star-light:after,
 hr.star-primary:after {
-    content: "\f005";
+    content: "\f786";
     display: inline-block;
     position: relative;
     top: -.8em;
@@ -72,7 +72,7 @@ hr.star-primary {
 }
 
 hr.star-primary:after {
-    color: #{{ site.color.secondary }};
+    color: red;
     background-color: #fff;
 }
 
@@ -359,6 +359,7 @@ footer {
 
 footer h3 {
     margin-bottom: 30px;
+    color: #fff
 }
 
 footer .footer-above {
@@ -466,7 +467,7 @@ footer .footer-below {
     z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: #{{ site.color.primary }};
+    background-color: #{{ site.color.secondary }};
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
@@ -482,3 +483,33 @@ footer .footer-below {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 }
+
+.modal-body {
+    color: black; /* Replace #yourColorCode with the color you want for the text */
+}
+
+.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .modal-dialog {
+    margin: 30px auto;
+    width: 80%; /* Adjust as needed for overall modal size */
+  }
+  
+  .modal-content {
+    padding: 20px;
+  }
+  
+  .modal-body {
+    padding: 15px;
+  }
+  
+  @media (min-width: 768px) {
+    .col-md-6 {
+      width: 50%; /* Both columns now have equal width */
+    }
+  }
+  
