@@ -171,6 +171,21 @@ header .intro-text .skills {
     border: 0;
 }
 
+/* Mobile styles */
+@media(max-width:767px) {
+    /* Hide the text of the navbar brand and only show the logo */
+    .navbar-fixed-top .navbar-brand {
+        font-size: 0; /* Hide text */
+        overflow: hidden; /* Prevents any accidental overflow caused by zero font-size */
+    }
+
+    .navbar-fixed-top .navbar-brand img#navbar-logo {
+        display: inline-block; /* Show logo */
+        height: 40px; /* Adjust as necessary */
+        width: auto; /* maintain aspect ratio */
+        /* Align image here if necessary, e.g., margin, vertical-align */
+    }
+
 section {
     padding: 100px 0;
 }
