@@ -171,37 +171,6 @@ header .intro-text .skills {
     border: 0;
 }
 
-/* Mobile styles */
-@media(max-width:767px) {
-    /* Hide the text of the navbar brand and only show the logo */
-    .navbar-fixed-top .navbar-brand {
-        font-size: 0; /* Hide text */
-        overflow: hidden; /* Prevents any accidental overflow caused by zero font-size */
-    }
-
-    .navbar-fixed-top .navbar-brand img#navbar-logo {
-        display: block; /* Show logo */
-        max-height: 100%; /* Logo height should not exceed the navbar height */
-        width: auto; /* Maintain aspect ratio */
-        margin: auto; /* Center the logo horizontally */
-        vertical-align: middle; /* Center the logo vertically */
-    }
-
-    .navbar-fixed-top {
-        padding-top: 10px; /* Adjust padding to fit the logo */
-        padding-bottom: 10px; /* Adjust padding to fit the logo */
-        -webkit-transition: padding .3s;
-        -moz-transition: padding .3s;
-        transition: padding .3s;
-    }
-
-    .navbar-fixed-top .navbar-toggle {
-        margin-top: 8px; /* Adjust as necessary for alignment */
-        margin-bottom: 8px; /* Adjust as necessary for alignment */
-    }
-}
-
-
 section {
     padding: 100px 0;
 }
