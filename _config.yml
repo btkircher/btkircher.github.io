@@ -1,11 +1,12 @@
  # Site settings
 title: Thymeless Treats
 email: thymelesstreatsbakery@gmail.com
-url: https://btkircher.github.io/
+url: https://m0ranwad.github.io/
 description: "Savor the Moments, Taste the Thyme -- Thymeless Treats Bakery, Where Every Bite is Timelessly Delicious!"
 keywords: "bakery, cleveland"
 skills: "Cupcakes - Cookies - Treats"
 meta_author: Kircher Brian
+baseurl: ''
 
 # Google webmaster tools
 google_verify:
