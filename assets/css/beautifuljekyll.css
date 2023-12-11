@@ -1090,3 +1090,11 @@ pre {
     display: inline-block;
   }
 }
+
+/* Custom CSS to control the image size on smaller screens */
+@media (max-width: 576px) {  /* This is for Bootstrap 4 and 5, adjust if using Bootstrap 3 */
+  .menu-item-image {
+    max-width: 250px;  /* Or whatever maximum size you prefer */
+    margin: 0 auto;  /* This will center the image in the card */
+  }
+}

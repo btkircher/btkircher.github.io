@@ -2,52 +2,72 @@
 layout: home
 title: Thymeless Treats Bakery
 subtitle: stuff about treats stuff
-cover-img: 
+cover-img:
 - /assets/img/bread.jpg
 ---
 
-<h2>Seasonal Menu</h2>
+<h2>Best Sellers</h2>
+
+<!-- Use it in your main page like this: -->
+
+
 
 <div class="container-fluid">
+    
     <!-- First Roww -->
     <div class="row">
         <!-- Column 1 -->
-        <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card">
-                <img src="/assets/img/gingerbread.jpg" class="card-img-top" data-toggle="modal" data-target="#modal1" alt="..." style="cursor: pointer;">
-                <div class="card-body">
-                    <h5 class="card-title">Gingerbread Cookies</h5>
-                    <p class="card-text">$6,000</p>
-                </div>
-            </div>
-        </div>
+        {% include card.html image='/assets/img/teacher-box.jpg' title='Teacher Boxes' text='$5'
+        modal_target='#modal1' alt='Poop' %}
+
+        <!-- Column 2 UPDATE TO BUCKEYES--> 
+        {% include card.html image='/assets/img/buckeyes.jpg' title='Buckeyes CONTAINS PEANUTS PEOPLE' text='$69' 
+        modal_target='#modal1' alt='Thumbprint Cookies' %}
+
+        <!-- Column 3 UPDATE TO CASHEWS-->
+        {% include card.html image='/assets/img/cashews.jpg' title='Chocolate Covered Sea Salt Cashews' text='$69'
+        modal_target='#modal1' alt='Grinch Cookies' %}
+
+    </div>
+
+    <h2>Full Christmas Menu</h2>
+
+    <!-- First Roww -->
+    <div class="row">
+        <!-- Column 1 -->
+        {% include card.html image='/assets/img/box.jpg' title='Christmas Cookie Tray' text='$40 Per Tray / 2 for $75'
+        modal_target='#modal1' alt='Christmas Cookie Tray' %}
 
         <!-- Column 2 -->
-        <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card">
-                <img src="/assets/img/thumbprint.jpg" class="card-img-top" data-toggle="modal" data-target="#modal1" alt="..." style="cursor: pointer;">
-                <div class="card-body">
-                    <h5 class="card-title">Thumbprint Cookies</h5>
-                    <p class="card-text">$5</p>
-                </div>
-            </div>
-        </div>
+        {% include card.html image='/assets/img/thumbprint.jpg' title='Thumbprint Cookies' text='$FREE' 
+        modal_target='#modal1' alt='Thumbprint Cookies' %}
 
-        <!-- Column  -->
-        <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card">
-                <img src="/assets/img/grinch.jpg" class="card-img-top" data-toggle="modal" data-target="#modal1" alt="..." style="cursor: pointer;">
-                <div class="card-body">
-                    <h5 class="card-title">Grinch Cookies</h5>
-                    <p class="card-text">More Dollars</p>
-                </div>
-            </div>
-        </div>
-        <!-- ... Repeat for other columns in first row -->
+        <!-- Column 3 -->
+        {% include card.html image='/assets/img/grinch.jpg' title='Grinch Cookies' text='$Ask'
+        modal_target='#modal1' alt='Grinch Cookies' %}
+
     </div>
 
     <!-- Second Row -->
-    <!-- Similar structure as the first row -->
+    <div class="row">
+        <!-- Column 1 -->
+        {% include card.html image='/assets/img/buckeyes.jpg' title='Buckeyes' text='$6,000'
+        modal_target='#modal1' alt='Gingerbread Cookies' %}
+
+        <!-- Column 2 -->
+        {% include card.html image='/assets/img/oatmeal-shortbread.jpg' title='Oatmeal Shortbread Cookies' text='$FREE' 
+        modal_target='#modal1' alt='Thumbprint Cookies' %}
+
+        <!-- Column 3 -->
+        {% include card.html image='/assets/img/cashews.jpg' title='Chocolate Covered Sea Salt Cashews' text='$Ask'
+        modal_target='#modal1' alt='Grinch Cookies' %}
+    </div>
+
+    <div class="row">
+    <!-- Column 1 -->
+        {% include card.html image='/assets/img/gingerbread.jpg' title='Gingerbread Cookies' text='$6,000'
+        modal_target='#modal1' alt='Gingerbread Cookies' %}
+    </div>
 </div>
 
 <!-- Modal -->
