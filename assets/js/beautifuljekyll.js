@@ -5,6 +5,35 @@ let BeautifulJekyllJS = {
   bigImgEl : null,
   numImgs : null,
 
+  initTouchEvents : function() {
+    var touchstartX = 0;
+    var touchendX = 0;
+
+    function handleTouchStart(event) {
+      touchstartX = event.changedTouches[0].screenX;
+    }
+
+    function handleTouchEnd(event) {
+      touchendX = event.changedTouches[0].screenX;
+      checkSwipeGesture(this);
+    }
+
+    function checkSwipeGesture(modalElement) {
+      if (touchendX < touchstartX - 75) {
+        // A left swipe was detected
+        // For Bootstrap 4 and earlier
+        $(modalElement).modal('hide');
+      }
+    }
+
+    // Attach the event listeners to each modal
+    var modals = document.querySelectorAll('.modal');
+    modals.forEach(function(modal) {
+      modal.addEventListener('touchstart', handleTouchStart, false);
+      modal.addEventListener('touchend', handleTouchEnd, false);
+    });
+  },
+
   init : function() {
     setTimeout(BeautifulJekyllJS.initNavbar, 10);
 
@@ -29,6 +58,8 @@ let BeautifulJekyllJS = {
     BeautifulJekyllJS.initImgs();
 
     BeautifulJekyllJS.initSearch();
+
+    BeautifulJekyllJS.initTouchEvents(); // Initialize touch events for modals
   },
 
   initNavbar : function() {
@@ -140,37 +171,3 @@ let BeautifulJekyllJS = {
 // 2fc73a3a967e97599c9763d05e564189
 
 document.addEventListener('DOMContentLoaded', BeautifulJekyllJS.init);
-
-
-
-
-document.addEventListener('DOMContentLoaded', function() {
-  var touchstartX = 0;
-  var touchendX = 0;
-
-  function handleTouchStart(event) {
-    touchstartX = event.changedTouches[0].screenX;
-  }
-
-  function handleTouchEnd(event) {
-    touchendX = event.changedTouches[0].screenX;
-    checkSwipeGesture(this);
-  }
-
-  function checkSwipeGesture(modalElement) {
-    if (touchendX < touchstartX - 75) {
-      // A left swipe was detected
-      // For Bootstrap 4 and earlier
-      $(modalElement).modal('hide');
-    }
-  }
-
-  // Attach the event listeners to each modal
-  var modals = document.querySelectorAll('.modal');
-  modals.forEach(function(modal) {
-    modal.addEventListener('touchstart', handleTouchStart, false);
-    modal.addEventListener('touchend', handleTouchEnd, false);
-  });
-});
-
-
