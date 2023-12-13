@@ -140,3 +140,36 @@ let BeautifulJekyllJS = {
 // 2fc73a3a967e97599c9763d05e564189
 
 document.addEventListener('DOMContentLoaded', BeautifulJekyllJS.init);
+
+
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  var touchstartX = 0;
+  var touchendX = 0;
+
+  function handleTouchStart(event) {
+    touchstartX = event.changedTouches[0].screenX;
+  }
+
+  function handleTouchEnd(event) {
+    touchendX = event.changedTouches[0].screenX;
+    checkSwipeGesture(this);
+  }
+
+  function checkSwipeGesture(modalElement) {
+    if (touchendX < touchstartX - 75) {
+      // A left swipe was detected
+      var modalInstance = bootstrap.Modal.getInstance(modalElement);
+      modalInstance.hide();
+    }
+  }
+
+  // Attach the event listeners to each modal
+  var modals = document.querySelectorAll('.modal');
+  modals.forEach(function(modal) {
+    modal.addEventListener('touchstart', handleTouchStart, false);
+    modal.addEventListener('touchend', handleTouchEnd, false);
+  });
+});
+
