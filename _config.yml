@@ -23,8 +23,8 @@ navbar-links:
   About Me: "aboutme"
   Menu:
     - Menu: "menu"
-    - Seasonal Menu: "christmas"
-  Author's home: "https://deanattali.com"
+    - Christmas Menu: "christmas"
+#  Author's home: "https://deanattali.com"
 
 ################
 # --- Logo --- #
