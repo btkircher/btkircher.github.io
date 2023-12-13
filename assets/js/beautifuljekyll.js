@@ -5,23 +5,34 @@ let BeautifulJekyllJS = {
   bigImgEl : null,
   numImgs : null,
 
-  initTouchEvents : function() {
+  initTouchEvents: function() {
     var touchstartX = 0;
     var touchendX = 0;
+    var touchstartY = 0;
+    var touchendY = 0;
 
     function handleTouchStart(event) {
       touchstartX = event.changedTouches[0].screenX;
+      touchstartY = event.changedTouches[0].screenY;
     }
 
     function handleTouchEnd(event) {
       touchendX = event.changedTouches[0].screenX;
+      touchendY = event.changedTouches[0].screenY;
       checkSwipeGesture(this);
     }
 
     function checkSwipeGesture(modalElement) {
-      if (touchendX < touchstartX - 75) {
-        // A left swipe was detected
-        // For Bootstrap 4 and earlier
+      var isSwipeLeft = touchendX < touchstartX - 75;
+      var isSwipeUp = touchendY < touchstartY - 75;
+
+      // Check if the user is at the bottom of the modal content
+      var isAtBottom = modalElement.querySelector('.modal-body').scrollTop + 
+                       modalElement.querySelector('.modal-body').clientHeight >= 
+                       modalElement.querySelector('.modal-body').scrollHeight;
+
+      if (isSwipeLeft || (isSwipeUp && isAtBottom)) {
+        // A left swipe or an up swipe at the bottom of the modal was detected
         $(modalElement).modal('hide');
       }
     }
