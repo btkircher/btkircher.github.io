@@ -1,15 +1,43 @@
 <!-- _includes/modal.html -->
 <div class="modal fade" id="{{ include.modal_id }}" tabindex="-1" role="dialog" aria-labelledby="modalLabel{{ forloop.index }}" aria-hidden="true">
-    <div class="modal-dialog" role="document">
+    <div class="modal-dialog modal-dialog-centered modal-xl" role="document"> <!-- Removed the dot before modal-fullscreen and changed to modal-xl -->
         <div class="modal-content">
+            <!-- Modal Header -->
             <div class="modal-header">
                 <h5 class="modal-title" id="modalLabel{{ forloop.index }}">{{ include.modal_title }}</h5>
-                <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+                <!-- Close button with only an "X" -->
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
             </div>
+            
+            <!-- Modal Body -->
             <div class="modal-body">
-                {{ include.modal_body }}
+                <!-- Horizontal Card -->
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="{{ include.modal_image }}" class="img-fluid rounded-start" alt="{{ include.modal_alt }}">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">{{ include.modal_alt }}</h5>
+                        <p class="card-text">{{ include.modal_body }}</p>
+                        <!-- Optionally include the last updated text if you have that information -->
+                        <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Horizontal Card -->
             </div>
-            <!-- Add any additional footer elements if needed -->
+
+            <!-- Optional Modal Footer -->
+            <!--
+            <div class="modal-footer">
+                Add any footer elements here if necessary
+            </div>
+            -->
         </div>
     </div>
 </div>
