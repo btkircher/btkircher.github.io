@@ -6,10 +6,9 @@ let BeautifulJekyllJS = {
   numImgs : null,
 
   initTouchEvents: function() {
-    var touchstartX = 0;
-    var touchendX = 0;
-    var touchstartY = 0;
-    var touchendY = 0;
+    var touchstartX = 0, touchendX = 0;
+    var touchstartY = 0, touchendY = 0;
+    var minSwipeDistance = 75; // Minimum distance for a swipe gesture
 
     function handleTouchStart(event) {
       touchstartX = event.changedTouches[0].screenX;
@@ -23,16 +22,23 @@ let BeautifulJekyllJS = {
     }
 
     function checkSwipeGesture(modalElement) {
-      var isSwipeLeft = touchendX < touchstartX - 75;
-      var isSwipeUp = touchendY < touchstartY - 75;
+      var deltaX = touchendX - touchstartX;
+      var deltaY = touchendY - touchstartY;
+
+      var isHorizontalSwipe = Math.abs(deltaX) > minSwipeDistance && Math.abs(deltaY) < minSwipeDistance;
+      var isSwipeLeft = deltaX < -minSwipeDistance;
+      var isSwipeRight = deltaX > minSwipeDistance;
 
       // Check if the user is at the bottom of the modal content
       var isAtBottom = modalElement.querySelector('.modal-body').scrollTop + 
                        modalElement.querySelector('.modal-body').clientHeight >= 
                        modalElement.querySelector('.modal-body').scrollHeight;
 
-      if (isSwipeLeft || (isSwipeUp && isAtBottom)) {
-        // A left swipe or an up swipe at the bottom of the modal was detected
+      var isVerticalSwipe = Math.abs(deltaY) > minSwipeDistance && Math.abs(deltaX) < minSwipeDistance;
+      var isSwipeUp = deltaY < -minSwipeDistance && isAtBottom;
+
+      if ((isHorizontalSwipe && (isSwipeLeft || isSwipeRight)) || (isVerticalSwipe && isSwipeUp)) {
+        // A horizontal swipe or an up swipe at the bottom of the modal was detected
         $(modalElement).modal('hide');
       }
     }
