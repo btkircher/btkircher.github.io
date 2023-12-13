@@ -22,9 +22,11 @@
                     <div class="col-md-8">
                       <div class="card-body">
                         <h5 class="card-title">{{ include.modal_alt }}</h5>
+                        <span class="modal-price">{{ include.modal_price }}</span>
                         <p class="card-text">{{ include.modal_body }}</p>
-                        <!-- Optionally include the last updated text if you have that information -->
-                        <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                          {% if include.modal_disclaimer %}
+                            <p class="modal-disclaimer">{{ include.modal_disclaimer }}</p>
+                          {% endif %}
                       </div>
                     </div>
                   </div>

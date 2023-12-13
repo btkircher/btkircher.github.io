@@ -1133,3 +1133,26 @@ pre {
   height: auto;     /* Maintains the aspect ratio */
   max-height: 500px; /* Adjust this value to fit your design */
 }
+
+.modal-disclaimer {
+  font-size: x-small;
+  color: grey;
+}
+
+.modal-price {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1em; /* Matches the body text size */
+  font-weight: 300; /* Lighter font-weight */
+  color: #555; /* A subtle dark grey, less harsh than black */
+  text-decoration: wavy; /* Underline can highlight the price subtly */
+  padding: 0; /* No padding */
+  background-color: transparent; /* No background */
+  margin-top: 0.5rem; /* Less margin, just enough to separate it from the text above */
+  display: inline; /* No block-level container */
+}
+
+/* If you want to keep the price on its own line but minimal */
+.modal-price::before {
+  font-weight: normal; /* Standard weight for the label */
+  color: #999; /* A lighter grey for the label */
+}
