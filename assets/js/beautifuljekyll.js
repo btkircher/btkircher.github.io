@@ -160,8 +160,8 @@ document.addEventListener('DOMContentLoaded', function() {
   function checkSwipeGesture(modalElement) {
     if (touchendX < touchstartX - 75) {
       // A left swipe was detected
-      var modalInstance = bootstrap.Modal.getInstance(modalElement);
-      modalInstance.hide();
+      // For Bootstrap 4 and earlier
+      $(modalElement).modal('hide');
     }
   }
 
@@ -172,4 +172,5 @@ document.addEventListener('DOMContentLoaded', function() {
     modal.addEventListener('touchend', handleTouchEnd, false);
   });
 });
+
 
