@@ -2,8 +2,7 @@
 layout: home
 title: Thymeless Treats Bakery
 subtitle: stuff about treats stuff
-cover-img:
-- /assets/img/christmas_header.jpg
+cover-img: ["/assets/img/headers/christmas/cookies.jpg", "/assets/img/headers/christmas/thumbprints.jpg", "/assets/img/headers/christmas/glazed-sugar.jpg", "/assets/img/headers/christmas/snowball.jpg", "/assets/img/headers/christmas/buckeyes.jpg", "/assets/img/headers/christmas/cashews.jpg", "/assets/img/headers/christmas/christmas_header.jpg"] 
 ---
 
 <h1 class="text-center">Best Sellers</h1>
@@ -233,6 +232,24 @@ cover-img:
             modal_price='$16 per pound'
             modal_alt='Gingerbread Cookies' 
             modal_image='/assets/img/gingerbread.jpg' 
+        %}
+
+        <!-- Column (Glazed Sugar Cookies) -->
+        {% include card.html 
+            image='/assets/img/glazed-sugar.jpg' 
+            title='Glazed Sugar Cookies' 
+            text='$6,000'
+            modal_target='#modalchristmasGlazedSugar' 
+            alt='Glazed Sugar Cookies' 
+        %}
+        {% include modal.html 
+            modal_id='modalchristmasGlazedSugar' 
+            modal_title='Christmas Menu' 
+            modal_body="Designs Vary"
+            modal_disclaimer='Approximately 16 sugar cookies per pound'
+            modal_price='$16 per pound'
+            modal_alt='Glazed Sugar Cookies' 
+            modal_image='/assets/img/glazed-sugar.jpg' 
         %}
     </div>
 </div>
