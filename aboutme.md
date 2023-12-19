@@ -30,11 +30,6 @@ show_social_links: false
     <p>For those who find their bliss in the rich allure of chocolate, our chocolate-dipped Oreos, cashews, and peanut butter creations are a testament to the simple joy that quality ingredients, when combined thoughtfully, can bring.</p>
   </div>
   
-  <div class="section">
-    <h2>More Than a Bakery</h2>
-    <p>Thymeless Treats is a place of gathering, a destination where each visit promises a new discovery. Whether it’s the scent of freshly baked bread or the sight of a cupcake that’s too pretty to eat, the bakery is an experience to be savored.</p>
-  </div>
-  
   <p class="footer-signature">Thank you for stepping into my world of baking, where every treat is a work of art, and every flavor tells a story. I invite you to explore, taste, and enjoy the labor of love that is Thymeless Treats Bakery.</p>
   
   <p class="footer-signature"><strong>With warmth and whisk in hand,</strong><br>Allie, Thymeless Treats Bakery</p>
