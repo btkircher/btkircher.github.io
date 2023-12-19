@@ -8,7 +8,6 @@ show_social_links: false
 
 <div class="about-me-container">
   <h1>Welcome to Thymeless Treats Bakery</h1>
-  <p><em>Where every whisk and stir is a mix of tradition and a sprinkle of innovation.</em></p>
   
   <div class="section">
     <h2>A Baker's Canvas</h2>
