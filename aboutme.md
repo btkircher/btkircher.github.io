@@ -7,7 +7,7 @@ show_social_links: false
 
 
 <div class="about-me-container">
-  <h1>Welcome to Thymeless Treats Bakery</h1>
+  <h1>Welcome to Thymeless Treats Bakery</h1><br><br>
   
   <div class="section">
     <h2>A Baker's Canvas</h2>
