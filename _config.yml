@@ -13,7 +13,7 @@
 title: Thymeless Treats Bakery
 
 # Your name to show in the footer
-author: Brian Kircher
+# author: Brian Kircher
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -51,8 +51,8 @@ round-avatar: true
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "ThymelessTreatsBakery@gmail.com"
   # rss: true  # remove this line if you don't want to show an RSS link at the bottom
+  instagram: Thymeless_Treats_Bakery
   facebook: ThymelessTreatsBakery
 #  github: daattali
 #  twitter: daattali
@@ -64,7 +64,7 @@ social-network-links:
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
-  instagram: Thymeless_Treats_Bakery
+  email: "ThymelessTreatsBakery@gmail.com"
 #  spotify: yourname
 #  telephone: +14159998888
 #  steam: deanat78
@@ -110,7 +110,7 @@ feed_show_excerpt: true
 feed_show_tags: true
 
 # Add a search button to the navbar
-post_search: true
+# post_search: true
 
 # Add a button in the footer to edit the current page. Only works if your website is hosted on GitHub
 edit_page_button: true
