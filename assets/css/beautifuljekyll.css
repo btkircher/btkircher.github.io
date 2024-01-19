@@ -1102,6 +1102,16 @@ pre {
   margin: 0.5rem; /* Adjust this value to increase spacing */
 }
 
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* This will make sure all cards in the same row are of equal height */
+}
+
+.card-body {
+  flex: 1; /* This will make the card body take up as much space as possible, pushing the footer to the bottom */
+}
+
 /* Image styling */
 .menu-item-image {
   /* Responsive width with a max-width to control the size */
