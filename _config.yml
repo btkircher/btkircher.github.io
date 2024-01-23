@@ -20,9 +20,11 @@ title: Thymeless Treats Bakery
 ###############################################
 
 navbar-links:
-  About Me: "about"
+  #About Me: "about"
+  Order: "order"
+  Contact Me: "contact"
   Menu:
-    - Menu: "menu"
+    # - Menu: "menu"
     - Christmas Menu: "christmas"
     - Valentine's Menu: "valentines"
 #  Author's home: "https://deanattali.com"

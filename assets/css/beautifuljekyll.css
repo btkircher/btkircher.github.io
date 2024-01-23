@@ -1246,3 +1246,16 @@ pre {
     font-size: 1.5rem;
   }
 }
+
+.google-form-embed {
+  width: 100%; /* Full width */
+  height: 800px; /* Initial height, adjust as needed */
+  border: none; /* Optional: removes the border */
+}
+
+/* Responsive height for smaller screens */
+@media (max-width: 768px) {
+  .google-form-embed {
+    height: 1500px; /* Adjust based on your form's length */
+  }
+}
