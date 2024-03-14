@@ -24,9 +24,7 @@ navbar-links:
   Order: "order"
   Contact Me: "contact"
   Menu:
-    # - Menu: "menu"
-    - Christmas Menu: "christmas"
-    - Valentine's Menu: "valentines"
+    - Seasonal Menu: "easter"
 #  Author's home: "https://deanattali.com"
 
 ################
