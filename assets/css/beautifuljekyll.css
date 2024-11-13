@@ -1320,6 +1320,15 @@ pre {
   letter-spacing: 0.1rem;
 }
 
+.menu-header-featured {
+  font-size: 2rem; /* Slightly smaller than the main header */
+  font-weight: 700;
+  text-align: center;
+  color: #355c47; /* Using the same soft green color */
+  margin-bottom: 1.5rem; /* Provide a bit of spacing below */
+  letter-spacing: 0.1rem;
+}
+
 .menu-items {
   display: flex;
   flex-wrap: wrap;
@@ -1579,4 +1588,13 @@ pre {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Add a subtle shadow to indicate the card is clickable */
   transform: translateY(-2px); /* A slight lift effect for better UX */
   transition: all 0.3s ease; /* Smooth transition effect */
+}
+
+.full-menu-img {
+  max-width: 90%;
+  height: auto;
+  border-radius: 15px;
+  margin: 0 auto;
+  display: block;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a soft shadow for emphasis */
 }
