@@ -1598,3 +1598,32 @@ pre {
   display: block;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a soft shadow for emphasis */
 }
+
+/* --- Sold Out Overlay --- */
+
+/* Add a "sold-out" class to the image itself to change opacity */
+.sold-out {
+  opacity: 0.4; /* Make the image appear less vivid to indicate it's sold out */
+}
+
+/* Wrapper for sold-out overlay without affecting image layout */
+.menu-item-img-wrapper {
+  position: relative;
+}
+
+/* Sold out overlay that will cover the image */
+.sold-out-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.75); /* Semi-transparent dark overlay */
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 10px;
+  text-align: center;
+  pointer-events: none; /* Ensure overlay does not block user interactions */
+  z-index: 2; /* Keep overlay above image */
+}

@@ -17,7 +17,12 @@ layout: default
           <a href="{{ item.link }}" class="menu-item-link">
         {% endif %}
         <div class="menu-item-card">
-          <img src="{{ item.image }}" alt="{{ item.name }}" class="menu-item-img">
+          <div class="menu-item-img-wrapper">
+            <img src="{{ item.image }}" alt="{{ item.name }}" class="menu-item-img {% if item.sold_out %}sold-out{% endif %}">
+            {% if item.sold_out %}
+              <div class="sold-out-overlay">Sold Out</div>
+            {% endif %}
+          </div>
           <div class="menu-item-details">
             <h2>{{ item.name }}</h2>
             <p>{{ item.description }}</p>
@@ -34,7 +39,7 @@ layout: default
       <img src="{{ page.header-img }}" alt="{{ page.title }}" class="full-menu-img">
     </div>
   {% endif %}
-  
+
   <div class="additional-content">
     {{ content }}
   </div>
